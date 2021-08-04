@@ -14,7 +14,6 @@ itsdangerous==2.0.1
 Jinja2==3.0.1
 macholib==1.14
 MarkupSafe==2.0.1
-numpy==1.21.0
 protobuf==3.17.3
 pycparser==2.20
 pyinstaller==4.3
