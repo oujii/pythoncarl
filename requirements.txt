@@ -15,7 +15,7 @@ macholib==1.14
 MarkupSafe==2.0.1
 protobuf==3.17.3
 pycparser==2.20
-
+pymysql=1.0.2
 
 pynput==1.7.3
 pytz==2021.1
