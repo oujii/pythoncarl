@@ -1,0 +1,25 @@
+from flask import Flask, request
+from flaskext.mysql import MySQL
+
+app = Flask(__name__)
+
+mysql = MySQL()
+
+app.config['MYSQL_DATABASE_USER'] = 'sql11428814'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'SJpvCk73tN'
+app.config['MYSQL_DATABASE_DB'] = 'sql11428814'
+app.config['MYSQL_DATABASE_HOST'] = 'sql11.freemysqlhosting.net'
+
+mysql.init_app(app)
+
+conn = mysql.connect()
+cursor =conn.cursor()
+
+#cursor.execute("CREATE TABLE products (product_id BINARY(16) PRIMARY KEY, product_name VARCHAR(120), product_desc VARCHAR(255), product_price DECIMAL(10,2), product_category VARCHAR(120), product_vendor VARCHAR(120))")
+#cursor.execute("CREATE TABLE customers (customer_id BINARY(16) PRIMARY KEY, customer_firstname VARCHAR(120), customer_lastname VARCHAR(120), customer_email VARCHAR(120))")
+
+#data = cursor.fetchone()
+
+class Products()
+
+
