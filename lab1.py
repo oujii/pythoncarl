@@ -128,3 +128,7 @@ def delete_product(id):
     db.session.delete(product)
     db.session.commit()
     return {'message': 'yeet'}
+
+
+if __name__ = '__main__':
+    app.run()
